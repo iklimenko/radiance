@@ -111,7 +111,7 @@ export const LabelPage = styled.div`
     font-style: normal;
     font-family: 'Mak';
     font-weight: normal;
-    margin: 40% 10px 40px 10px;
+    margin: 30% 10px 40px 10px;
     color: #F2F2F2;
 `
 
