@@ -1,9 +1,7 @@
 import './App.css';
 import * as React from 'react';
-import Button from '@mui/material/Button';
-import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
-import { MainContainer, Paragraph, Background, StartButton, GlobalStyle } from './styles'
-import { Link, useLocation } from "react-router-dom";
+import { MainContainer, Paragraph, Background, StartButton } from './styles'
+import { Link } from "react-router-dom";
 
 function App() {
  	return (

@@ -6,7 +6,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import RadioGroup from '@mui/material/RadioGroup';
 import Radio from '@mui/material/Radio';
 import DoneIcon from '@mui/icons-material/Done';
-import { QuationContainer, SecondBackground, LabelPage, StartButton } from './styles'
+import { QuationContainer, FifthBackground, LabelPage, StartButton } from './styles'
 import { Link, useLocation } from "react-router-dom";
 
 function FifthPage() {
@@ -16,12 +16,12 @@ function FifthPage() {
 	const [company, setCompany] = React.useState('');
 
  	return (
-	<SecondBackground>
+	<FifthBackground>
 		<QuationContainer>
             <LabelPage>Джингл белс совсем близко! Какой ваш любимый новогодний напиток?</LabelPage>
             <FormControl sx={{ marginBottom: '30px', width: '300px' }}>
                 <RadioGroup
-                    sx={{color: 'white'}}
+                    sx={{color: '#F2F2F2'}}
                     value={company}
                     onChange={(event) => {
                         setCompany(event.target.value);
@@ -29,7 +29,7 @@ function FifthPage() {
                     <FormControlLabel value="1" 
                         control={<Radio 
                                     sx={{
-                                        color: 'white',
+                                        color: '#F2F2F2',
                                         '&.Mui-checked': {
                                             color: 'cyan',
                                         }}} />} 
@@ -37,7 +37,7 @@ function FifthPage() {
                     <FormControlLabel value="2" 
                         control={<Radio 
                                     sx={{
-                                        color: 'white',
+                                        color: '#F2F2F2',
                                         '&.Mui-checked': {
                                             color: 'cyan',
                                         }}} />} 
@@ -45,7 +45,7 @@ function FifthPage() {
                     <FormControlLabel value="3" 
                         control={<Radio 
                                     sx={{
-                                        color: 'white',
+                                        color: '#F2F2F2',
                                         '&.Mui-checked': {
                                             color: 'cyan',
                                         }}} />} 
@@ -53,7 +53,7 @@ function FifthPage() {
                     <FormControlLabel value="4" 
                         control={<Radio 
                                     sx={{
-                                        color: 'white',
+                                        color: '#F2F2F2',
                                         '&.Mui-checked': {
                                             color: 'cyan',
                                         }}} />} 
@@ -70,7 +70,7 @@ function FifthPage() {
                 
             </Link>
 		</QuationContainer>
-	</SecondBackground>
+	</FifthBackground>
   );
 }
 

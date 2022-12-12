@@ -6,7 +6,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import RadioGroup from '@mui/material/RadioGroup';
 import Radio from '@mui/material/Radio';
 import DoneIcon from '@mui/icons-material/Done';
-import { QuationContainer, FirstBackground, LabelPage, StartButton } from './styles'
+import { QuationContainer, FourthBackground, LabelPage, StartButton } from './styles'
 import { Link, useLocation } from "react-router-dom";
 
 function FourthPage() {
@@ -16,28 +16,28 @@ function FourthPage() {
 	const [company, setCompany] = React.useState('');
 
  	return (
-	<FirstBackground>
+	<FourthBackground>
 		<QuationContainer>
             <LabelPage>Какая цитата лучше всего описывает вас?</LabelPage>
             <FormControl sx={{ marginBottom: '30px', width: '300px' }}>
                 <RadioGroup
-                    sx={{color: 'white'}}
+                    sx={{color: '#F2F2F2'}}
                     value={company}
                     onChange={(event) => {
                         setCompany(event.target.value);
                     }}>
-                    <FormControlLabel value="1" 
+                    <FormControlLabel value="1" sx={{marginBottom: '20px'}}
                         control={<Radio 
                                     sx={{
-                                        color: 'white',
+                                        color: '#F2F2F2',
                                         '&.Mui-checked': {
                                             color: 'cyan',
                                         }}} />} 
                         label={<span style={{ fontSize: 16, fontFamily: 'Montserrat' }}>Кто испытал наслаждение творчества, для того все другие наслаждения уже не существуют. (А. Чехов)</span>} />
-                    <FormControlLabel value="2" 
+                    <FormControlLabel value="2" sx={{marginBottom: '20px'}}
                         control={<Radio 
                                     sx={{
-                                        color: 'white',
+                                        color: '#F2F2F2',
                                         '&.Mui-checked': {
                                             color: 'cyan',
                                         }}} />} 
@@ -45,7 +45,7 @@ function FourthPage() {
                     <FormControlLabel value="3" 
                         control={<Radio 
                                     sx={{
-                                        color: 'white',
+                                        color: '#F2F2F2',
                                         '&.Mui-checked': {
                                             color: 'cyan',
                                         }}} />} 
@@ -62,7 +62,7 @@ function FourthPage() {
                 
             </Link>
 		</QuationContainer>
-	</FirstBackground>
+	</FourthBackground>
   );
 }
 

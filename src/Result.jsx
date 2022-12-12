@@ -43,17 +43,6 @@ const App = () => {
             radial-gradient(at 60% 75%, ${second} 0px, transparent 50%),
             radial-gradient(at 80% 31%, ${third} 0px, transparent 50%),
             radial-gradient(at 3% 72%, ${white} 0px, transparent 50%);
-        ?:before {
-            content: "";
-            position: absolute;
-            width: 200%;
-            height: 200%;
-            top: -50%;
-            left: -50%;
-            z-index: -1;
-            background: url(background.png) 0 0 repeat;
-            transform: rotate(30deg);
-        }
     `
 
     const Back = styled.div`
@@ -65,7 +54,7 @@ const App = () => {
     `
 
     const Caption = styled.div`
-        margin-top: 50%;
+        margin-top: 90%;
         height: 40px;
         width: 350px;
         text-align: center;

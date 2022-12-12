@@ -20,7 +20,7 @@ function SecondPage() {
             <LabelPage>Какой мерч вы бы хотели получить?</LabelPage>
             <FormControl sx={{ marginBottom: '30px', width: '300px' }}>
                 <RadioGroup
-                    sx={{color: 'white'}}
+                    sx={{color: '#F2F2F2'}}
                     value={company}
                     onChange={(event) => {
                         setCompany(event.target.value);
@@ -28,7 +28,7 @@ function SecondPage() {
                     <FormControlLabel value="1" 
                         control={<Radio 
                                     sx={{
-                                        color: 'white',
+                                        color: '#F2F2F2',
                                         '&.Mui-checked': {
                                             color: 'cyan',
                                         }}} />} 
@@ -36,7 +36,7 @@ function SecondPage() {
                     <FormControlLabel value="2" 
                         control={<Radio 
                                     sx={{
-                                        color: 'white',
+                                        color: '#F2F2F2',
                                         '&.Mui-checked': {
                                             color: 'cyan',
                                         }}} />} 
@@ -44,7 +44,7 @@ function SecondPage() {
                     <FormControlLabel value="3" 
                         control={<Radio 
                                     sx={{
-                                        color: 'white',
+                                        color: '#F2F2F2',
                                         '&.Mui-checked': {
                                             color: 'cyan',
                                         }}} />} 

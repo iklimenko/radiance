@@ -19,7 +19,7 @@ function FirstPage() {
             <LabelPage>Что бы вы выбрали?</LabelPage>
             <FormControl sx={{ marginBottom: '30px', width: '300px' }}>
                 <RadioGroup
-                    sx={{color: '#272B7D'}}
+                    sx={{color: '#F2F2F2'}}
                     value={company}
                     onChange={(event) => {
                         setCompany(event.target.value);
@@ -27,7 +27,7 @@ function FirstPage() {
                     <FormControlLabel value="1" 
                         control={<Radio 
                                     sx={{
-                                        color: '#272B7D',
+                                        color: '#F2F2F2',
                                         '&.Mui-checked': {
                                             color: 'cyan',
                                         }}} />} 
@@ -35,7 +35,7 @@ function FirstPage() {
                     <FormControlLabel value="2" 
                         control={<Radio 
                                     sx={{
-                                        color: '#272B7D',
+                                        color: '#F2F2F2',
                                         '&.Mui-checked': {
                                             color: 'cyan',
                                         }}} />} 
@@ -43,7 +43,7 @@ function FirstPage() {
                     <FormControlLabel value="3" 
                         control={<Radio 
                                     sx={{
-                                        color: '#272B7D',
+                                        color: '#F2F2F2',
                                         '&.Mui-checked': {
                                             color: 'cyan',
                                         }}} />} 

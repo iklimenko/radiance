@@ -1,8 +1,10 @@
 import styled from 'styled-components';
-import back from './back.svg';
-import back1 from './back1.svg';
-import back2 from './back2.svg';
-import back3 from './back3.svg';
+import back from './back.png';
+import back1 from './back1.png';
+import back2 from './back2.png';
+import back3 from './back3.png';
+import back4 from './back4.png';
+import back5 from './back5.png';
 import { createGlobalStyle } from 'styled-components';
 import Mak from './MAK.otf';
 import Montserrat from './Montserrat.ttf';
@@ -27,8 +29,9 @@ export const GlobalStyle = createGlobalStyle`
 export const Background = styled.div`
     width: 100%;
     height: 100vh;
-    background-image: url(${back});
+    background-image: url(${back}) ;
     background-size: cover;
+    backgroud-color: #86C5FF;
 `
 
 export const FirstBackground = styled.div`
@@ -36,6 +39,7 @@ export const FirstBackground = styled.div`
     width: 100%;
     background-image: url(${back1});
     background-size: cover;
+    backgroud-color: #86C5FF;
 `
 
 export const SecondBackground = styled.div`
@@ -43,6 +47,23 @@ export const SecondBackground = styled.div`
     width: auto;
     background-image: url(${back2});
     background-size: cover;
+    backgroud-color: #86C5FF;
+`
+
+export const FourthBackground = styled.div`
+    height: 100vh;
+    width: auto;
+    background-image: url(${back4});
+    background-size: cover;
+    backgroud-color: #86C5FF;
+`
+
+export const FifthBackground = styled.div`
+    height: 100vh;
+    width: auto;
+    background-image: url(${back5});
+    background-size: cover;
+    backgroud-color: #86C5FF;
 `
 
 export const ThirdBackground = styled.div`
@@ -50,6 +71,7 @@ export const ThirdBackground = styled.div`
     width: auto;
     background-image: url(${back3});
     background-size: cover;
+    backgroud-color: #86C5FF;
 `
 
 export const MainContainer = styled.div`
@@ -77,8 +99,8 @@ export const Paragraph = styled.div`
     font-style: normal;
     font-family: 'Mak';
     font-weight: normal;
-    margin: 50% 10px 30px 10px;
-    color: #272B7D;
+    margin: 90% 10px 30px 10px;
+    color: #F2F2F2;
 `
 
 export const LabelPage = styled.div`
@@ -90,7 +112,7 @@ export const LabelPage = styled.div`
     font-family: 'Mak';
     font-weight: normal;
     margin: 50% 10px 40px 10px;
-    color: #272B7D;
+    color: #F2F2F2;
 `
 
 export const StartButton = styled.button`
@@ -101,10 +123,10 @@ export const StartButton = styled.button`
     display: inline-block;
     padding: 6px 30px 6px 30px;
     position: relative;
-    border: 1.5px solid #272B7D;
+    border: 1.5px solid #F2F2F2;
     border-radius: 25px;
     background: transparent;
-    color: #272B7D;
+    color: #F2F2F2;
     cursor: pointer;
 `
 

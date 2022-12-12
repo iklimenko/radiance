@@ -21,23 +21,23 @@ function ThirdPage() {
             <LabelPage>Чем бы вы хотели заняться?</LabelPage>
             <FormControl sx={{ marginBottom: '30px', width: '300px'}}>
                 <RadioGroup
-                    sx={{color: 'white'}}
+                    sx={{color: '#F2F2F2'}}
                     value={company}
                     onChange={(event) => {
                         setCompany(event.target.value);
                     }}>
-                    <FormControlLabel value="1" 
+                    <FormControlLabel value="1" sx={{marginBottom: '20px'}}
                         control={<Radio 
                                     sx={{
-                                        color: 'white',
+                                        color: '#F2F2F2',
                                         '&.Mui-checked': {
                                             color: 'cyan',
                                         }}} />} 
                         label={<span style={{ fontSize: 16, fontFamily: 'Montserrat' }}>Заполнять волонтерские книжки своих друзей, чтобы у них была стипендия</span>} />
-                    <FormControlLabel value="2" 
+                    <FormControlLabel value="2" sx={{marginBottom: '20px'}}
                         control={<Radio 
                                     sx={{
-                                        color: 'white',
+                                        color: '#F2F2F2',
                                         '&.Mui-checked': {
                                             color: 'cyan',
                                         }}} />} 
@@ -45,7 +45,7 @@ function ThirdPage() {
                     <FormControlLabel value="3" 
                         control={<Radio 
                                     sx={{
-                                        color: 'white',
+                                        color: '#F2F2F2',
                                         '&.Mui-checked': {
                                             color: 'cyan',
                                         }}} />} 
