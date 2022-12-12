@@ -77,7 +77,7 @@ export const Paragraph = styled.div`
     font-style: normal;
     font-family: 'Mak';
     font-weight: normal;
-    margin: 300px 10px 30px 10px;
+    margin: 50% 10px 30px 10px;
     color: #272B7D;
 `
 
