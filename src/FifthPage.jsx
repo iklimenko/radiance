@@ -64,7 +64,7 @@ function FifthPage() {
                 { company ? 
                 (
                     <StartButton>
-                        Далее
+                        Создать
                     </StartButton>
                 ) : (<></>) }
                 
