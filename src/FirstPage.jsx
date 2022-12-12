@@ -6,18 +6,8 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import RadioGroup from '@mui/material/RadioGroup';
 import Radio from '@mui/material/Radio';
 import DoneIcon from '@mui/icons-material/Done';
-import { QuationContainer, StartButton, LabelPage } from './styles'
+import { QuationContainer, FirstBackground, StartButton, LabelPage } from './styles'
 import { Link } from "react-router-dom";
-import LinearProgress from '@mui/material/LinearProgress';
-import styled from 'styled-components';
-import back1 from './back1.svg';
-
-export const FirstBackground = styled.div`
-    height: 100vh;
-    width: 100%;
-    background-image: url(${back1});
-    background-size: cover;
-`
 
 function FirstPage() {
 
@@ -26,7 +16,6 @@ function FirstPage() {
  	return (
 	<FirstBackground>
 		<QuationContainer>
-            <LinearProgress sx={{ marginTop: '10px', color: 'white' }} variant="determinate" value={40} />
             <LabelPage>Что бы вы выбрали?</LabelPage>
             <FormControl sx={{ marginBottom: '30px', width: '300px' }}>
                 <RadioGroup
