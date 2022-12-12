@@ -25,31 +25,31 @@ export const GlobalStyle = createGlobalStyle`
 
 
 export const Background = styled.div`
+    width: 100%;
     height: 100vh;
-    width: auto;
     background-image: url(${back});
-    background-size: 100% 100%;
+    background-size: cover;
 `
 
 export const FirstBackground = styled.div`
     height: 100vh;
-    width: auto;
+    width: 100%;
     background-image: url(${back1});
-    background-size: 100% 100%;
+    background-size: cover;
 `
 
 export const SecondBackground = styled.div`
     height: 100vh;
     width: auto;
     background-image: url(${back2});
-    background-size: 100% 100%;
+    background-size: cover;
 `
 
 export const ThirdBackground = styled.div`
     height: 100vh;
     width: auto;
     background-image: url(${back3});
-    background-size: 100% 100%;
+    background-size: cover;
 `
 
 export const MainContainer = styled.div`
