@@ -7,7 +7,7 @@ function App() {
  	return (
 	<Background>
 		<MainContainer>
-			<Paragraph>Таня, раскрой мысли</Paragraph>
+			<Paragraph>Создай свое северное сияние</Paragraph>
 			<Link to="/first" style={{ textDecoration: 'none' }}>
 				<StartButton>
 					Вперед
